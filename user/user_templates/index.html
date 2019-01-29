@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    {{list1['info']}}
+    {%if list1['name']%}
+    {{list1['name']}}
+    {%else%}
+    <a href="/login"></a>
+    {%endif%}
+    <a href="/user/login">未登录</a>
+    <a href="/user/vs_detail">视频</a>
+</body>
+</html>
