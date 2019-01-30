@@ -8,8 +8,10 @@
 </head>
 <body>
     <!-- <img src="{{url_for('vs_detail1.video_test')}}"> -->
-    <video width='320' height='140'src="{{url_for('vs_detail1.video_test')}}" controls='controls'>
+    <video width='320' height='140'src="{{url_for('vs_detail1.video_test')}}" controls='controls' preload="metadata" loop>
         视频
     </video>
+    <img src="{{url_for('vs_detail1.video_img')}}">
+    <img src="{{url_for('vs_detail1.video_feed')}}">
 </body>
 </html>
